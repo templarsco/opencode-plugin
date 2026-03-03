@@ -1,0 +1,26 @@
+{
+  "name": "@lightweight-ai/opencode-plugin",
+  "version": "1.0.0",
+  "description": "OpenCode plugin for Lightweight API — auto-discovers AI models with secure integration",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["opencode", "lightweight", "ai", "llm", "plugin", "provider"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/templarsco/lightweight-api",
+    "directory": "opencode-plugin"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
